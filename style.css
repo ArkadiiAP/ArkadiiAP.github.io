@@ -1,0 +1,247 @@
+*{
+    font-family: 'Baloo Tamma 2', cursive;
+}
+body{
+    background-image: linear-gradient(to right bottom, #04396C, #FFC673);
+}
+h1{
+    color: #679ed2;
+    font-family: 'Londrina Solid', cursive;
+    text-align: center;
+    text-transform: capitalize;
+}
+.nbar{
+    position: sticky;
+    top: 0;
+    width: 100%;
+    margin: 0;
+    background-color: #408ad2;
+    z-index: 1;
+    text-align: center;
+}
+#fdiv{
+    margin: 0;
+}
+#bd{
+    width: 80%;
+    margin: auto;
+    background-color: white;
+    display: flex;
+}
+.menu{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    /*z-index: 2;*/
+}
+.menu > li{
+    display: inline;
+    padding: 5px;
+    background-color: #04396c;
+    border: 2px solid #04396c;
+    text-transform: capitalize;
+}
+.menu > li:hover{
+    border: 2px solid #ffc673;/*#26527c;*/
+    /*cursor: pointer;*/
+}
+.photo{
+    margin: 0 auto;
+    padding: 5px;
+}
+.photo > img{
+    width: 100%;
+}
+.about{
+    margin-left: 20px;
+    margin-right: 20px;
+    display: block;
+    margin-bottom: 20px;
+}
+.ftr{
+    text-align: center;
+    background-color: #04396c;
+    color: #679ed2;
+}
+.main{
+    display: flex;
+}
+.divs{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 20px #bf8530;
+}
+h1, .cv{
+    padding: 30px;
+    text-align: center;
+}
+/*#hardsk{
+    text-align: center;
+    text-transform: capitalize;
+}*/
+#hs{
+    display: flex;
+    /*padding: 20px;*/
+}
+#hs1, #hs2, #hs3, #hs4{
+    width: 120px;
+    height: 50px;
+    border: 2px solid #04396c;
+    border-radius: 10px;
+    margin: auto;
+}
+#hs1{
+    background-image: linear-gradient(to right, #ff9700 0%, #ff9700 80%, #679ed2 80%, #679ed2 100%);
+}
+#hs2{
+    background-image: linear-gradient(to right, #ff9700 0%, #ff9700 70%, #679ed2 70%, #679ed2 100%);
+}
+#hs3{
+    background-image: linear-gradient(to right, #ff9700 0%, #ff9700 2%, #679ed2 2%, #679ed2 100%);
+}
+#hs4{
+    background-image: linear-gradient(to right, #ff9700 0%, #ff9700 2%, #679ed2 2%, #679ed2 100%);
+}
+/*#imagehtml{
+    visibility: hidden;
+}*/
+.skill{
+    flex: 25%;
+}
+.skill > p{
+    text-transform: uppercase;
+}
+#hs1:hover, #hs2:hover, #hs3:hover, #hs4:hover{
+    box-shadow: 0 0 15px #ffb140;
+}
+p{
+    text-align: center;
+}
+a:link{
+    color: #679ed2;
+    text-decoration: none;
+}
+a:visited{
+    color: #679ed2;
+    text-decoration: none;
+}
+a:hover{
+    color: #679ed2;
+    text-decoration: none;
+}
+a:active{
+    color: #679ed2;
+    text-decoration: none;
+}
+#dwnl {
+    width: 120px;
+    height: 40px;
+    background-color: #ff9700;
+    color: #a66200;
+    font-size: 16px;
+    text-transform: uppercase;
+    padding: 10px;
+}
+#dwnl:hover{
+    background-color: #a66200;
+    color: #ffc673;
+}
+#myworks{
+    display: flex;
+}
+.works{
+    margin: auto;
+}
+#contactlist{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+#contactlist > li {
+    padding: 10px;
+    text-align: center;
+}
+.hardskill{
+    background-image: linear-gradient(to bottom, #04396c, #679ed2);
+}
+.skill > p{
+    font-weight: bold;
+    color: #04396c;
+}
+.mywork{
+    background-image: linear-gradient(to top, #a66200, #ffc673);
+}
+.mywork > h1{
+    color: #a66200;
+}
+@media screen and (max-width: 1800px) and (min-width: 800px){
+    #hs1, #hs2, #hs3, #hs4{
+        transform: rotate(270deg);
+        margin: 20px auto 35px auto;
+    }
+    .about{
+        margin-bottom: 15px;
+    }
+}
+@media screen and (max-width: 800px) and (min-width: 400px){
+    #hs1, #hs2, #hs3, #hs4{
+        transform: rotate(270deg);
+        height: 40px;
+        width: 100px;
+        margin: 20px auto 35px auto;
+    }
+    body{
+        background-image: none
+    }
+    #bd{
+        width: 100%;
+    }
+    #myworks{
+        display: block;
+    }
+    .works{
+        text-align: center;
+    }
+}
+@media screen and (max-width: 400px){
+    #hs1, #hs2, #hs3, #hs4{
+        transform: rotate(270deg);
+        height: 20px;
+        width: 60px;
+        margin: 20px auto 35px auto;
+    }
+    body{
+        background-image: none
+    }
+    #bd{
+        width: 100%;
+    }
+    #myworks{
+        display: block;
+    }
+    .works{
+        text-align: center;
+    }
+}
+@media screen and (min-width: 1800px){
+    *{
+        width: 100%;
+    }
+    .icons{
+        width: 16px;
+    }
+    .works{
+        width: 25%;
+    }
+    .photo > img{
+        max-height: 500px;
+        width: auto;
+        justify-self: center;
+    }
+    .photo{
+        text-align: center;
+    }
+}
+
