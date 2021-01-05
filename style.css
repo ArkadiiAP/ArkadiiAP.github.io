@@ -99,10 +99,10 @@ h1, .cv{
     background-image: linear-gradient(to right, #ff9700 0%, #ff9700 70%, #679ed2 70%, #679ed2 100%);
 }
 #hs3{
-    background-image: linear-gradient(to right, #ff9700 0%, #ff9700 2%, #679ed2 2%, #679ed2 100%);
+    background-image: linear-gradient(to right, #ff9700 0%, #ff9700 75%, #679ed2 75%, #679ed2 100%);
 }
 #hs4{
-    background-image: linear-gradient(to right, #ff9700 0%, #ff9700 2%, #679ed2 2%, #679ed2 100%);
+    background-image: linear-gradient(to right, #ff9700 0%, #ff9700 70%, #679ed2 70%, #679ed2 100%);
 }
 /*#imagehtml{
     visibility: hidden;
