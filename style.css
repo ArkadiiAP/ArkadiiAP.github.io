@@ -34,7 +34,6 @@ h1{
     justify-content: center;
     margin: 0;
     padding: 0;
-    /*z-index: 2;*/
 }
 .menu > li{
     display: inline;
@@ -44,8 +43,7 @@ h1{
     text-transform: capitalize;
 }
 .menu > li:hover{
-    border: 2px solid #ffc673;/*#26527c;*/
-    /*cursor: pointer;*/
+    border: 2px solid #ffc673;
 }
 .photo{
     margin: 0 auto;
@@ -77,13 +75,8 @@ h1, .cv{
     padding: 30px;
     text-align: center;
 }
-/*#hardsk{
-    text-align: center;
-    text-transform: capitalize;
-}*/
 #hs{
     display: flex;
-    /*padding: 20px;*/
 }
 #hs1, #hs2, #hs3, #hs4{
     width: 120px;
@@ -104,9 +97,6 @@ h1, .cv{
 #hs4{
     background-image: linear-gradient(to right, #ff9700 0%, #ff9700 70%, #679ed2 70%, #679ed2 100%);
 }
-/*#imagehtml{
-    visibility: hidden;
-}*/
 .skill{
     flex: 25%;
 }
@@ -151,8 +141,21 @@ a:active{
 #myworks{
     display: flex;
 }
+.description{
+    position: absolute;
+}
 .works{
     margin: auto;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+#mw1 img, #mw2 img, #mw3 img{
+    transform: scale(2);
+    width: 90%;
+}
+#mw1 img:hover, #mw2 img:hover, #mw3 img:hover{
+    transition: 2s;
+    transform: scale(1);
 }
 #contactlist{
     list-style-type: none;
@@ -176,7 +179,7 @@ a:active{
 .mywork > h1{
     color: #a66200;
 }
-@media screen and (max-width: 1800px) and (min-width: 800px){
+@media (max-width: 1800px) and (min-width: 801px){
     #hs1, #hs2, #hs3, #hs4{
         transform: rotate(270deg);
         margin: 20px auto 35px auto;
@@ -184,8 +187,11 @@ a:active{
     .about{
         margin-bottom: 15px;
     }
+    .works{
+        width: 25%;
+    }
 }
-@media screen and (max-width: 800px) and (min-width: 400px){
+@media (max-width: 800px) and (min-width: 401px){
     #hs1, #hs2, #hs3, #hs4{
         transform: rotate(270deg);
         height: 40px;
@@ -204,8 +210,13 @@ a:active{
     .works{
         text-align: center;
     }
+    #mw1 img, #mw2 img, #mw3 img{
+        transform: scale(2);
+        width: 50%;
+        height: auto;
+    }
 }
-@media screen and (max-width: 400px){
+@media (max-width: 400px){
     #hs1, #hs2, #hs3, #hs4{
         transform: rotate(270deg);
         height: 20px;
@@ -225,7 +236,7 @@ a:active{
         text-align: center;
     }
 }
-@media screen and (min-width: 1800px){
+@media (min-width: 1801px){
     *{
         width: 100%;
     }
@@ -244,4 +255,3 @@ a:active{
         text-align: center;
     }
 }
-
