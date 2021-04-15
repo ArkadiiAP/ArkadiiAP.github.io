@@ -1,6 +1,7 @@
-*{
+@import url("https://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css");
+/* *{
     font-family: 'Baloo Tamma 2', cursive;
-}
+} */
 body{
     background-image: linear-gradient(to right bottom, #04396C, #FFC673);
 }
@@ -239,9 +240,6 @@ a:active{
 @media (min-width: 1801px){
     *{
         width: 100%;
-    }
-    .icons{
-        width: 16px;
     }
     .works{
         width: 25%;
